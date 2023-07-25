@@ -3,16 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Client by ID</title>
+  <title>Busca do cliente por ID</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Search Client by ID</h1>
-    <input type="text" id="clientIdInput" placeholder="Enter client ID">
+    <h1>Busca do cliente por ID</h1>
+    <input type="text" id="clientIdInput" placeholder="Coloque o ID do cliente">
     <button id="searchButton">Search</button>
     <div id="resultContainer"></div>
   </div>
+
+  <!-- Link para o SDK do Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+  <!-- Link para o arquivo JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
